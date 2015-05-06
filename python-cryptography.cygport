@@ -1,0 +1,9 @@
+inherit python-distutils
+
+NAME="python-cryptography"
+VERSION=0.8.2
+RELEASE=1
+CATEGORY="Python"
+SUMMARY="Python 2 cryptography primitives"
+DESCRIPTION="cryptography is a package which provides cryptographic recipes and
+primitives to Python developers."
