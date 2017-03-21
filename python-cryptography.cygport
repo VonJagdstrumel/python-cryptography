@@ -1,9 +1,9 @@
-inherit python-distutils
+inherit python-wheel
 
 NAME="python-cryptography"
-VERSION=0.8.2
+VERSION=1.8.1
 RELEASE=1
 CATEGORY="Python"
-SUMMARY="Python 2 cryptography primitives"
+SUMMARY="Python cryptography primitives"
 DESCRIPTION="cryptography is a package which provides cryptographic recipes and
 primitives to Python developers."
