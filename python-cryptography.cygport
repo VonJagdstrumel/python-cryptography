@@ -7,3 +7,5 @@ CATEGORY="Python"
 SUMMARY="Python cryptography primitives"
 DESCRIPTION="cryptography is a package which provides cryptographic recipes and
 primitives to Python developers."
+
+python_cryptography_debuginfo_OBSOLETES="python3-cryptography-debuginfo"
