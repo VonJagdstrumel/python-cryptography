@@ -1,11 +1,14 @@
 inherit python-wheel
 
 NAME="python-cryptography"
-VERSION=1.8.1
+VERSION=2.6.1
 RELEASE=1
 CATEGORY="Python"
 SUMMARY="Python cryptography primitives"
 DESCRIPTION="cryptography is a package which provides cryptographic recipes and
 primitives to Python developers."
 
+python27_cryptography_REQUIRES="python27-cffi python27-idna"
+python36_cryptography_REQUIRES="python36-cffi python36-idna"
+python37_cryptography_REQUIRES="python37-cffi python37-idna"
 python_cryptography_debuginfo_OBSOLETES="python3-cryptography-debuginfo"
