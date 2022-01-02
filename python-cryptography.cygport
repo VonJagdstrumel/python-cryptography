@@ -8,5 +8,5 @@ SUMMARY="Python cryptography primitives"
 DESCRIPTION="cryptography is a package which provides cryptographic recipes and
 primitives to Python developers."
 
-python39_cryptography_REQUIRES="python39-cffi python39-idna"
+python311_cryptography_REQUIRES="python311-cffi python311-idna"
 python_cryptography_debuginfo_OBSOLETES="python3-cryptography-debuginfo"
